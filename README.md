@@ -44,6 +44,7 @@ cmake --build .
 ### Генерация Документации
 ```bash
 doxygen Doxyfile
+start .\doc\html\index.html
 ```
 
 

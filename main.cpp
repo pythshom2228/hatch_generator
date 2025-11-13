@@ -1,8 +1,34 @@
-#include <iostream>
+﻿/**
+ * @file main.cpp
+ * @brief Главная функция программы
+ * @mainpage Генератор штриховки для SLM-слайсера
+ *
+ * Программа для генерации штриховки внутри прямоугольных контуров
+ * с возможностью настройки угла наклона и шага между линиями.
+ *
+ * Использование:
+ * @code
+ * ./hatch_generator --angle <degrees> --step <mm>
+ * @endcode
+ *
+ * @version 1.0
+ */
 
+#include <iostream>
 #include "session.hpp"
 #include "hatch_generator.hpp"
 
+ /**
+  * @brief Точка входа в программу
+  * @param argc Количество аргументов командной строки
+  * @param argv Массив аргументов командной строки
+  * @return EXIT_SUCCESS при успешном выполнении, EXIT_FAILURE при ошибке
+  *
+  * @par Пример использования:
+  * @code{.sh}
+  * ./hatch_generator --angle 45 --step 1
+  * @endcode
+  */
 int main(int argc, char* argv[]) {
     using namespace session;
 

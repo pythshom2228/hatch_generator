@@ -24,7 +24,7 @@
 - **Компилятор C++20** (MSVC, MinGW-w64)
 - **Doxygen** (опционально, для документации)
 
-### Сборка проекта
+## Сборка проекта
 
 ```bash
 git clone https://github.com/pythshom2228/hatch_generator.git
@@ -33,15 +33,15 @@ mkdir build
 cd build
 ```
 
-# MinGW
+### MinGW
 ```bash
 cmake .. -G"MinGW Makefiles"
 cmake --build . 
 ```
-# MSVC
+### MSVC
 Открыть проект в Visual Studio
 
-### Генерация Документации
+## Генерация Документации
 ```bash
 doxygen Doxyfile
 start .\doc\html\index.html

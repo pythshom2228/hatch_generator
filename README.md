@@ -32,10 +32,20 @@ cd hatch_generator
 mkdir build
 cd build
 cmake ..
-cmake --build .
 ```
 
-## Использование
+# MinGW
+```bash
+cmake --build . -G"MinGW Makefiles"
+```
+# MSVC
+Открыть проект в Visual Studio
+
+### Генерация Документации
+```bash
+doxygen Doxyfile
+```
+
 
 ### Командная строка
 

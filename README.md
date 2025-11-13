@@ -31,12 +31,12 @@ git clone https://github.com/pythshom2228/hatch_generator.git
 cd hatch_generator
 mkdir build
 cd build
-cmake ..
 ```
 
 # MinGW
 ```bash
-cmake --build . -G"MinGW Makefiles"
+cmake .. -G"MinGW Makefiles"
+cmake --build . 
 ```
 # MSVC
 Открыть проект в Visual Studio

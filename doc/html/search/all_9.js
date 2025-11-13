@@ -5,8 +5,7 @@ var searchData=
   ['session_2ehpp_2',['session.hpp',['../session_8hpp.html',1,'']]],
   ['shape_3',['Shape',['../struct_shape.html',1,'']]],
   ['shape_2ehpp_4',['shape.hpp',['../shape_8hpp.html',1,'']]],
-  ['slm_20слайсера_5',['Генератор штриховки для SLM-слайсера',['../index.html',1,'']]],
-  ['start_6',['start',['../struct_line__2.html#ae40290a536a5eb7c856d36dedbde385f',1,'Line_2']]],
-  ['step_7',['STEP',['../namespacesession.html#a00a15dd268ab642eb9c1bbfe03b4fdefa051141f90a1c90b3acc455987b649ae6',1,'session']]],
-  ['step_5fvalue_8',['STEP_VALUE',['../namespacesession.html#a00a15dd268ab642eb9c1bbfe03b4fdefaa4d31c283007f9bd95941ea825281b77',1,'session']]]
+  ['start_5',['start',['../struct_line__2.html#ae40290a536a5eb7c856d36dedbde385f',1,'Line_2']]],
+  ['step_6',['STEP',['../namespacesession.html#a00a15dd268ab642eb9c1bbfe03b4fdefa051141f90a1c90b3acc455987b649ae6',1,'session']]],
+  ['step_5fvalue_7',['STEP_VALUE',['../namespacesession.html#a00a15dd268ab642eb9c1bbfe03b4fdefaa4d31c283007f9bd95941ea825281b77',1,'session']]]
 ];

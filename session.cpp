@@ -1,7 +1,8 @@
-#include "session.hpp"
+﻿#include "session.hpp"
 
 #include <string>
 #include <simple_svg.hpp>
+#include <limits>
 #include "shape.hpp"
 
 using namespace session;

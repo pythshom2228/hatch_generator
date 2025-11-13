@@ -1,5 +1,6 @@
 ﻿#include "shape.hpp"
 #include "math_linear.hpp"
+#include <cmath>
 
 bool Shape::isRectangle(const std::vector<Point_2>& pts) {
     if (pts.size() != 4) return false;
